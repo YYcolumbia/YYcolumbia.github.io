@@ -8,10 +8,19 @@ output:
 # Yang Yi
 ![](images/visa.jpg){width=40%}
 
-## Contact
-**Email:**yiyang200328@gmail.com
+## Personal Info
+**Gender:** Male
 
-**Tel:**+1 8323168203
+**Place of Work:** Mailman School of Public Health at Columbia University
+
+**Country of Birth:** China
+
+## Contact
+**Email:** yiyang200328@gmail.com
+
+**Tel:** +1 8323168203
+
+**Github:** https://github.com/YYcolumbia
 
 ## Education
 **University of Washington** 	                 09/2019-06/2022
@@ -25,7 +34,7 @@ output:
 **Awards:** Denes Szucs & Path Academic’s Best Leadership Award (08/2021), University of Washington Dean’s List (Spring 2020, Autumn 2020, Spring 2021,Summer 2021, Autumn 2021, Winter 2022, Spring 2022)
 
 ## Publication
-The Effect of Sleep Duration On Short-term Memory
+[The Effect of Sleep Duration On Short-term Memory](https://www.atlantis-press.com/proceedings/ichess-21/125967250)
 
 ## Academic Research
 **Online Research Seminar about Introduction to Cognitive Science**             05/2021-07/2021

@@ -12,6 +12,20 @@ output:
 
 ![](https://media.giphy.com/media/yrhhmre5fN2PtRujfo/giphy.gif)
 
+
+## Navigation Links
+Here's are some direct links to navigate through this website:
+
+[About](about.html)
+
+[My Resume](resume.html)
+
+[My Publication](https://www.atlantis-press.com/proceedings/ichess-21/125967250)
+
+[Github](https://github.com/YYcolumbia)
+
+[My Steam Gaming Profile!](https://steamcommunity.com/profiles/76561198319668430/)
+
 ## About Me
 My name is Yang Yi, and I was born in China. Here's a picture of myself.
 ![](images/Me.jpg){width=60%}
@@ -19,11 +33,5 @@ My name is Yang Yi, and I was born in China. Here's a picture of myself.
 I've graduated from University of Washington with Bachelor's Degree in Psychology. And currently I'm a graduate student studying [Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics) at Mailman School of Public Health at Columbia University.
 
 ## My Dog
-This is my shiny little dog _Brownie_, he is adorable isn't he?
+This is my shiny little dog **_Brownie_**, he is adorable isn't he?
 ![](images/Cookie.jpg)
-
-## Navigation Links
-Here's are some direct links to navigate through this website:
-
-[About](about.html);
-[My Resume](resume.html)

@@ -11,6 +11,10 @@ navbar:
       href: mailto:<yy3307@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/YYcolumbia/
+    - icon: fa-duotone fa-book
+      href: https://www.atlantis-press.com/proceedings/ichess-21/125967250
+    - icon: fa-solid fa-gamepad
+      href: https://steamcommunity.com/profiles/76561198319668430/
 output:
   html_document:
     theme: united
