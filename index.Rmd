@@ -6,18 +6,24 @@ output:
     toc_float: true
 ---
 
-# This is Yang Yi's awesome website
+## This is Yang Yi's awesome website
 
 **Greetings. Welcome to my website!**
 
 ![](https://media.giphy.com/media/yrhhmre5fN2PtRujfo/giphy.gif)
 
+## About Me
 My name is Yang Yi, and I was born in China. Here's a picture of myself.
-![](images/Me.jpg)
+![](images/Me.jpg){width=60%}
 
 I've graduated from University of Washington with Bachelor's Degree in Psychology. And currently I'm a graduate student studying [Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics) at Mailman School of Public Health at Columbia University.
 
+## My Dog
 This is my shiny little dog _Brownie_, he is adorable isn't he?
 ![](images/Cookie.jpg)
 
-Here's a direct link to the about page: [about](about.html).
+## Navigation Links
+Here's are some direct links to navigate through this website:
+
+[About](about.html);
+[My Resume](resume.html)
