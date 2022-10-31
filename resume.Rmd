@@ -1,0 +1,79 @@
+---
+title: "Academic and Professional Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# Yang Yi
+![](images/visa.jpg){width=40%}
+
+## Contact
+**Email:**yiyang200328@gmail.com
+
+**Tel:**+1 8323168203
+
+## Education
+**University of Washington** 	                 09/2019-06/2022
+
+**Columbia University**	                       In progress
+
+**Major:** Bachelor of Psychology; Master of Science in Biostatistics
+
+**Bachelor’s Overall GPA:** 3.76/4.0  |  **Bachelor’s Major GPA:** 3.94/4.0
+
+**Awards:** Denes Szucs & Path Academic’s Best Leadership Award (08/2021), University of Washington Dean’s List (Spring 2020, Autumn 2020, Spring 2021,Summer 2021, Autumn 2021, Winter 2022, Spring 2022)
+
+## Publication
+The Effect of Sleep Duration On Short-term Memory
+
+## Academic Research
+**Online Research Seminar about Introduction to Cognitive Science**             05/2021-07/2021
+
+_Student, Supervised by Prof. Denes Szucs, University of Cambridge_
+
+Leaded a group as the group leader in a diverse team and formulated the research process for team members to complete within schedule.
+
+Learned new terms in cognitive psychology and some tasks designing techniques for experiment settings.
+
+Grasped the utilization of Psychopy software and programmed psychological testing model and statistics processes based on Psychopy.
+
+Performed with a high-quality presentation to review the findings and published a paper about the topic.
+
+**Working Stress and Performance Management**                                   05/2021-07/2021
+
+_Core Team Member, Supervised by Prof. Junhui Kong, Beijing University of Chinese Medicine_
+
+Designed and distributed questionnaires according to experimental goals.
+
+Collected data randomly and voluntarily from college students at Beijing University of Chinese Medicine.
+
+Analyzed the data based on collected results using data analysis method such as chi-squared test of independent or one sample t-test and implemented by Microsoft Excel and Jamovi program.
+
+Organized the research results and published a paper as joint first authors.
+
+## Internship Experience
+
+**Beijing University of Chinese Medicine**                                      03/2021 – 08/2021
+
+_Psychological Counselor, Mental Health Education and Counseling Center_
+
+Provided online psychological counseling and offered suggestions for college students.
+
+Helped the students relieve the pressure and emotional fluctuations encountered in their studies or life.
+
+Summarized the different conditions of student’s pressure and conducted personalized solutions for different situations.
+
+## Extracurricular Activities
+Beijing Haidian ZhangBei Hope Primary School                                    06/2018
+
+_Volunteer Teaching Assistant_
+
+Used the expertise to teach English courses for migrant workers’ children.
+
+Took care with students’ mental health and physical health.
+
+## Skills
+**Languages:** Native in Chinese; Fluent in English
+
+**Software:** Python, SPSS, R, Jamovi, Psychopy, Microsoft Office Suite
