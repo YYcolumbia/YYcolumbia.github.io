@@ -6,3 +6,30 @@ output:
     toc_float: true
 ---
 
+# Problem 2
+
+Create a flexdashboard using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.) using `Instacart` dataset from the `p8105.datasets` package.
+
+Load packages and data:
+
+```{r setup, include = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Import `Instacart` dataset and filter data:
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart %>% 
+  as_tibble(instacart) %>%
+  janitor::clean_names() %>%
+  select(add_to_cart_order, order_dow, order_hour_of_day, aisle)
+```
+
+
+
