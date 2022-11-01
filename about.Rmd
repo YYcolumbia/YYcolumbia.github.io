@@ -11,3 +11,16 @@ output:
 This awesome website is made in rmarkdown and other stuff.
 
 By navigating this website, you will have a better understanding of me.
+
+## Navigation Links
+Here's are some direct links to navigate through this website:
+
+[My Resume](resume.html)
+
+[Flexdashboard ](instacart-Dashboard.html)
+
+[My Publication](https://www.atlantis-press.com/proceedings/ichess-21/125967250)
+
+[Github](https://github.com/YYcolumbia)
+
+[My Steam Gaming Profile!](https://steamcommunity.com/profiles/76561198319668430/)

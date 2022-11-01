@@ -1,27 +1,19 @@
 ---
-title: "Plotly"
+title: "Instacart Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-# Problem 2
-
-Create a flexdashboard using plotly for that includes at least three distinct plot types (e.g. scatterplots, line plots, bar plots, box plots, etc.) using `Instacart` dataset from the `p8105.datasets` package.
-
-Load packages and data:
-
-```{r setup, include = FALSE}
+```{r setup, include=FALSE}
 library(tidyverse)
 library(p8105.datasets)
-
 library(plotly)
+library(flexdashboard)
 ```
 
-Import `Instacart` dataset and filter data:
-
-```{r}
+```{r, include = FALSE}
 data("instacart")
 
 instacart = 
@@ -31,7 +23,10 @@ instacart =
   select(add_to_cart_order, order_dow, order_hour_of_day, aisle)
 ```
 
-## Plotly barplot: Number of items ordered in each aisle
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Plotly barplot
 
 This barplot reveals number of items ordered in each aisle, limiting to aisles with more than 5000 items ordered.
 
@@ -46,7 +41,10 @@ instacart %>%
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", text = ~text_label, colors = "viridis")
 ```
 
-## Plotly scatterplot: Order hour of day for different types of Aisle sorted by weekday
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Plotly scatterplot
 
 This scatterplot shows 1000 randomly selected samples' order hour of day for different types of Aisle sorted by weekday.
 
@@ -60,9 +58,9 @@ instacart %>%
     color = ~order_dow, text = ~text_label, alpha = 0.5)
 ```
 
-## Plotly boxplot: Number of orders added to cart for each Aisle
+### Plotly boxplot
 
-This baxplot indicates 1500 randomly selected samples' number of orders added to cart for each Aisle.
+This boxplot indicates 1500 randomly selected samples' number of orders added to cart for each Aisle.
 
 ```{r}
 instacart %>%
@@ -70,3 +68,4 @@ instacart %>%
   mutate(aisle = fct_reorder(aisle, add_to_cart_order)) %>%
   plot_ly(y = ~add_to_cart_order, color = ~aisle, type = "box", colors = "viridis")
 ```
+
