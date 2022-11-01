@@ -25,7 +25,7 @@ Import `Instacart` dataset and filter data:
 data("instacart")
 
 instacart = 
-  instacart %>% 
+  instacart %>%
   as_tibble(instacart) %>%
   janitor::clean_names() %>%
   select(add_to_cart_order, order_dow, order_hour_of_day, aisle)
@@ -33,21 +33,28 @@ instacart =
 
 ## Plotly barplot: Number of items ordered in each aisle
 
+This barplot reveals number of items ordered in each aisle, limiting to aisles with more than 5000 items ordered.
+
 ```{r}
 instacart %>%
   count(aisle) %>%
   filter(n > 5000) %>%
-  mutate(aisle = fct_reorder(aisle, n)) %>%
-  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+  mutate(
+    aisle = fct_reorder(aisle, n),
+    text_label = str_c("Aisle: ", aisle, "\nNumber of Orders: ", n)
+  ) %>%
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", text = ~text_label, colors = "viridis")
 ```
 
 ## Plotly scatterplot: Order hour of day for different types of Aisle sorted by weekday
+
+This scatterplot shows 1000 randomly selected samples' order hour of day for different types of Aisle sorted by weekday.
 
 ```{r}
 instacart %>%
   sample_n(1000) %>%
   group_by(aisle) %>%
-  mutate(text_label = str_c("Aisle: ", aisle, "\nOrder Time: ", order_hour_of_day, ":00")) %>% 
+  mutate(text_label = str_c("Aisle: ", aisle, "\nOrder Time: ", order_hour_of_day, ":00")) %>%
   plot_ly(
     x = ~aisle, y = ~order_hour_of_day, type = "scatter", mode = "markers",
     color = ~order_dow, text = ~text_label, alpha = 0.5)
@@ -55,9 +62,11 @@ instacart %>%
 
 ## Plotly boxplot: Number of orders added to cart for each Aisle
 
+This baxplot indicates 1500 randomly selected samples' number of orders added to cart for each Aisle.
+
 ```{r}
 instacart %>%
   sample_n(1500) %>%
-  mutate(aisle = fct_reorder(aisle, add_to_cart_order)) %>% 
+  mutate(aisle = fct_reorder(aisle, add_to_cart_order)) %>%
   plot_ly(y = ~add_to_cart_order, color = ~aisle, type = "box", colors = "viridis")
 ```
