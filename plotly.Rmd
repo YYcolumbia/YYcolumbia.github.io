@@ -52,3 +52,12 @@ instacart %>%
     x = ~aisle, y = ~order_hour_of_day, type = "scatter", mode = "markers",
     color = ~order_dow, text = ~text_label, alpha = 0.5)
 ```
+
+## Plotly boxplot: Number of orders added to cart for each Aisle
+
+```{r}
+instacart %>%
+  sample_n(1500) %>%
+  mutate(aisle = fct_reorder(aisle, add_to_cart_order)) %>% 
+  plot_ly(y = ~add_to_cart_order, color = ~aisle, type = "box", colors = "viridis")
+```
