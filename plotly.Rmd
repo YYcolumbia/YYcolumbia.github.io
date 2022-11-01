@@ -31,5 +31,14 @@ instacart =
   select(add_to_cart_order, order_dow, order_hour_of_day, aisle)
 ```
 
+## Plotly barplot: Number of items ordered in each aisle
+
+```{r}
+instacart %>%
+  count(aisle) %>%
+  filter(n > 5000) %>%
+  mutate(aisle = fct_reorder(aisle, n)) %>%
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
 
 
