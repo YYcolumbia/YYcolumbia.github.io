@@ -35,3 +35,6 @@ I've graduated from University of Washington with Bachelor's Degree in Psycholog
 ## My Dog
 This is my shiny little dog **_Brownie_**, he is adorable isn't he?
 ![](images/Cookie.jpg)
+
+## Plotly Plots
+[Here's](plotly.html) a page with plotly plots
