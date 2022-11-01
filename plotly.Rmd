@@ -41,4 +41,14 @@ instacart %>%
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
 ```
 
+## Plotly scatterplot: Order hour of day for different types of Aisle sorted by weekday
 
+```{r}
+instacart %>%
+  sample_n(1000) %>%
+  group_by(aisle) %>%
+  mutate(text_label = str_c("Aisle: ", aisle, "\nOrder Time: ", order_hour_of_day, ":00")) %>% 
+  plot_ly(
+    x = ~aisle, y = ~order_hour_of_day, type = "scatter", mode = "markers",
+    color = ~order_dow, text = ~text_label, alpha = 0.5)
+```
