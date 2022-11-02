@@ -12,7 +12,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<yy3307@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/YYcolumbia/
+      href: https://github.com/YYcolumbia/YYcolumbia.github.io
     - icon: fa-duotone fa-book
       href: https://www.atlantis-press.com/proceedings/ichess-21/125967250
     - icon: fa-solid fa-gamepad
